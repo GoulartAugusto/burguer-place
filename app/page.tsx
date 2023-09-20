@@ -1,9 +1,13 @@
-import Image from 'next/image'
+"use client"
+
+import Hero from '@/components/Hero'
+import { GlobalStyle } from '@/GlobalStyle'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
+    <main className="">
+      <GlobalStyle />
+      <Hero />
     </main>
   )
 }
