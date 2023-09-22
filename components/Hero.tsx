@@ -6,16 +6,13 @@ import HeroBackground from '@/images/hamburguer-01.jpeg'
 
 const Hero = () => {
   return (
-      <div className='h-full'>
-        <div className=''>
+      <div className='h-full relative mb-8'>
             <Image
                 src={HeroBackground}
-                alt=""
-                layout="fill"
-                objectFit="cover"
-                className=""
+                alt="alternative"
+                fill={true}
+                className="object-cover"
             />
-        </div>
         <Header />
         <div className='max-h-full w-screen relative pl-8 lg:pl-44'>
           <div className='flex flex-col justify-center items-start h-screen max-h-full uppercase leading-none font-bold text-white'>

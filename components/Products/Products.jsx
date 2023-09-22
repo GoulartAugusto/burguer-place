@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import Image from 'next/image'
 
@@ -15,32 +17,32 @@ import { ProductCard } from './ProductCard'
 
 const Products = ({ heading, data }) => {
   return (
-    <main className='text-white'>
-        <div className='flex flex-col items-center'>
-            <h1 className='font-black text-2xl mb-8'>
-                {heading}
-            </h1>
-        </div>
-        
-
-        
-            <div className=''>
-                {data.map((product) => {
-                    return (
-                        <div className=''>
+    <section className='text-white'>
+        <div className='mt-8 flex justify-center'>
+            <div>
+                <div className='flex justify-center'>
+                    <h1 className='font-black text-2xl mb-8'>
+                        {heading}
+                    </h1>
+                </div>
+                
+                
+                <div className='grid justify-between grid-flow-row gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 '>
+                    {/* <div className='flex flex-row md:flex-col'>  flex justify-center */}
+                        {data.map((product) => (
                             <ProductCard
                                 name={product.name}
                                 img={product.img}
                                 desc={product.desc}
                                 price={product.price}
                                 button={product.button}
-                                key={product.alt}
+                                key={product.name}
                             />
-                        </div>
-                    )
-                })}
+                        ))}
+                </div>
             </div>
-    </main>
+        </div>
+    </section>
   )
 }
 
