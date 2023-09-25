@@ -1,12 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 
-import FeatureBackground from '@/images/hamburguer-05.jpg'
+import FeatureBackground from '@/images/hamburguer-03.jpg'
+
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 
 const FeatureTwo = () => {
   return (
-    <section className='h-3/4 relative mb-8'>
+    <section className='h-3/4 relative'>
         <Image
           src={FeatureBackground}
           alt="alternative"
@@ -15,9 +17,8 @@ const FeatureTwo = () => {
         />
         <div className='max-h-full w-screen relative pl-8 lg:pl-44'>
           <div className='flex flex-col justify-center items-start h-screen max-h-full uppercase leading-none font-bold text-white'>
-            <h1 className='text-4xl lg:text-6xl font-black mb-4 w-[600px] h-[220px] leading-[4rem]'>Monte seu próprio Hamburguer</h1>
-            <p className='w-96 md:text-md md:truncate md:w-[1000px] font-grey text-yellow-500 mb-8'>Com todas as opções disponiveis no cardapio monte seu Hamburguer perfeito.</p>
-            <button className='text-lg pt-4 pb-4 pl-16 pr-16 bg-[#e35818] text-white rounded-sm'>Faça seu pedido</button>
+            <h1 className='text-4xl lg:text-6xl text-[#e35818] font-black mb-4 w-[600px] h-[220px] leading-[4rem]'>Faça seu pedido por Whatsapp ou ligue</h1>
+            <button className='text-4xl pt-4 pb-4 pl-16 pr-16 bg-[#e35818] text-white rounded-sm'><FaWhatsapp /></button>
           </div>
         </div>
     </section>
