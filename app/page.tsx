@@ -13,6 +13,8 @@ export default function Home() {
       <Hero />
       <Products heading='Hamburguers' data={productData} />
       <Feature /> 
+      <Products heading='Bebidas' data={productDataTwo} />
+
       <GlobalStyle />
     </main>
   )

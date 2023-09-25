@@ -6,9 +6,9 @@ import product5 from "@/images/hamburguer-06.jpg";
 import product6 from "@/images/hamburguer-07.jpg";
 import product7 from "@/images/hamburguer-08.jpg";
 import product8 from "@/images/hamburguer-01.jpeg";
-import sweet1 from "@/images/sweet3.jpg";
-import sweet2 from "@/images/sweet-2.jpg";
-import sweet3 from "@/images/sweet-3.jpg";
+import bebidas1 from "@/images/bebidas-01.jpg";
+import bebidas2 from "@/images/bebidas-02.jpg";
+import bebidas3 from "@/images/bebidas-03.jpg";
 
 
 
@@ -83,27 +83,43 @@ export const productData = [
 
 export const productDataTwo = [
     {
-        img: sweet2,
+        img: bebidas1,
         alt: 'Donuts',
-        name: 'Doughlicious',
-        desc: 'Belgian chocolate glazed donuts covered in icing whit sprinkles on top',
-        price: '$9.99',
+        name: 'Refrigerante 600ml',
+        desc: 'Coca-Cola, Guaraná Antartica, Fanta ou Sprite',
+        price: 'R$5.99',
         button: 'Add to Cart'
     },
     {
-        img: sweet3,
+        img: bebidas2,
         alt: 'Ice Cream',
-        name: 'Caramel Wonder',
-        desc: 'Vanilla ice cream covered whit caramel and chocolate glaze topped whit a coco stick',
-        price: '$12.99',
+        name: 'Cerveja Long Neck',
+        desc: 'Heineken, Budwiser ou Corona',
+        price: 'R$9.99',
         button: 'Add to Cart'
     },
     {
-        img: sweet1,
+        img: bebidas3,
         alt: 'Brownie',
-        name: 'Brownie Bunch',
-        desc: 'Double fudge brownie squares topped whit white chocolate pieces and macadamia nuts',
-        price: '$9.99',
+        name: 'Agua 600ml',
+        desc: '',
+        price: '$4.99',
+        button: 'Add to Cart'
+    },
+    {
+        img: bebidas2,
+        alt: 'Ice Cream',
+        name: 'Cerveja 600ml',
+        desc: 'Heineken, Budwiser ou Corona',
+        price: 'R$12.99',
+        button: 'Add to Cart'
+    },
+    {
+        img: bebidas1,
+        alt: 'Donuts',
+        name: 'Refrigerante 2 litros',
+        desc: 'Coca-Cola, Guaraná Antartica, Fanta ou Sprite',
+        price: 'R$11.99',
         button: 'Add to Cart'
     },
 ]
