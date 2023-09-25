@@ -18,7 +18,7 @@ import { ProductCard } from './ProductCard'
 const Products = ({ heading, data }) => {
   return (
     <section className='text-white'>
-        <div className='mt-8 flex justify-center'>
+        <div className='mt-8 mb-16 ml-8 flex justify-center'>
             <div>
                 <div className='flex justify-center'>
                     <h1 className='font-black text-2xl mb-8'>
