@@ -6,6 +6,7 @@ import Hero from '@/components/Hero'
 import Products from '@/components/Products/Products'
 import { productData, productDataTwo } from "@/components/Products/data.js";
 import Feature from '@/components/Feature/Feature';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Products heading='Hamburguers' data={productData} />
       <Feature /> 
       <Products heading='Bebidas' data={productDataTwo} />
-
+      <Footer />
       <GlobalStyle />
     </main>
   )
