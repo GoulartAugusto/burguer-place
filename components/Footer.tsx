@@ -15,7 +15,7 @@ const Footer = () => {
                         <a href="/" className='text-white text-2xl'><FaWhatsapp /></a>
                         <a href="/" className='text-white text-2xl'><FaTwitter /></a>
                     </div>
-        <h1 className='text-white ml-8'>Desenvolvido por <Link href='https://goulartportifolio.web.app/' target='_blank'>Augusto Goulart</Link></h1>
+                    <h1 className='text-white ml-8'>Desenvolvido por <Link href='https://goulartportifolio.web.app/' target='_blank'>Augusto Goulart</Link></h1>
                 </div>
             </div>
         </div>
